@@ -1,0 +1,153 @@
+@charset "UTF-8";
+*{
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-image: linear-gradient(to bottom,rgba(38, 44, 119, 0.733), rgba(89, 196, 19, 0.486));
+    box-shadow: 4px 3px 15px rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+}
+main:hover{
+    animation-duration: 2s;
+}
+h1{
+    border-style: inset;
+    
+    background-color: rgb(21, 24, 68);
+    color:rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 1s;
+}
+h2{
+    text-align: center;
+    border-style: outset;
+    border-inline-style:inherit;
+    border-radius: 5px;
+    background-color: rgb(4, 7, 51);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    transition-duration: 1s;
+}
+
+p{
+    height: 10px;
+    font-family: monospace;
+    font-size: 0px;
+    text-align: center;
+    color: transparent;
+    background-color:transparent;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+p:hover{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    height:700px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition-duration: 1s;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #3b5998, #517fa4,#007bb6,white,rgb(0, 255, 200),#1715156b);
+    transition-duration: 1s;
+}
+
+li{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 14px;
+    text-align: justify;
+    transition-duration: 1s;
+}
+li:hover{
+    color: rgb(3, 3, 3);
+}
+button.HTML{
+    text-align: center;
+    transition-duration: 1s;
+}
+button.HTML:hover{
+    box-shadow: 1px 1px 60px  #e34f26;
+    background-image: linear-gradient(to left, #0000, #e34f26);
+    transition-duration: 1s;
+}
+button.CSS:hover{
+    box-shadow: 1px 1px 60px  blue;
+    background-image: linear-gradient(to left, #0000, blue);
+    transition-duration: 1s;
+}
+button.C{
+   text-align: center;
+   transition-duration: 1s;
+}
+button.C:hover{
+    box-shadow: 1px 1px 60px blueviolet;
+    background-image: linear-gradient(to left, #0000, blueviolet);
+    transition-duration: 1s;
+}
+button{
+    background-color: rgba(17, 17, 133, 0);
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: outset;
+    transition-duration: 1s;
+}
+
+button:hover {
+    box-shadow: 1px 1px 60px rgb(21, 24, 68);
+    background-color: rgb(21, 24, 68);
+    width: 90px;
+    height: 90px;
+    transition-property: initial;
+    transition-duration: 1s;
+} 
+h4{
+    text-align: center;
+    transition-duration: 1s;
+}
+h3{
+    text-align: center;
+    transition-duration: 1s;
+}
+h3:hover{
+    transition-duration: 1s;
+}
+button.whatsapp:hover{
+    box-shadow: 1px 1px 60px #34af23;
+    background-image: linear-gradient(to left, #34af23,#0000, white);
+    transition-duration: 1s;
+}
+button.facebook:hover{
+    box-shadow: 1px 1px 60px #3b5998;
+    background-image: linear-gradient(to left, #0000,white,#3b5998);
+    transition-duration: 1s;
+}
+button.instagram:hover{
+    box-shadow: 1px 1px 60px #517fa4;
+    background-image: linear-gradient(to left, #517fa4,#0000, rgb(207, 33, 33));
+    transition-duration: 1s;
+}
+button.linkedin:hover{
+    box-shadow: 1px 1px 60px #007cb6cc;
+    background-image: linear-gradient(to left, rgb(255, 255, 255), transparent, #007cb6cc);
+    transition-duration: 1s;
+}
+button.curriculo:hover{
+    box-shadow: 1px 1px 60px rgb(207, 33, 33);
+    background-image: linear-gradient(to left,rgb(207, 33, 33),rgba(255, 255, 255, 0.425));
+    transition-duration: 1s;
+}
+button.github:hover{
+    box-shadow: 1px 1px 60px rgb(179, 63, 179);
+    background-image: linear-gradient(to left,#1715156b, rgb(179, 63, 179));
+    transition-duration: 1s;
+}
